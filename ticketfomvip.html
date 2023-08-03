@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title style="margin-left: 10px;">VIP TRAVELS</title>
+       <link rel="stylesheet" href="vip2y.css">
+    </head>
+    <body>
+        <form style="border: 10px; width: 1400px; margin-left: 10px;">
+            <fieldset style="background-color:indigo;width: 1500px; width: 800px;">  
+             <legend style="background-color: greenyellow; margin-left: 200px; " ><b>Welcome to V.I.P Travels Ticket Booking Section </b></legend>
+             <br>
+             
+              <table>
+                    <tr>
+                      <h2 style="color: royalblue; margin-left: 20px;"> Bus Operator => V.I.P Travels Pvt.Ltd.(4* Rated) </h2>
+                      <h2 style="color: orange; margin-left: 20px;">Travel  Route => Yamuna Expressway (Agra-Noida)</h2> 
+                    </tr>
+                </table>
+                <br>
+                <br>
+        
+                <fieldset style="background-color:wheat" margin="15px" >
+                    <legend style="background-color: chartreuse;padding: 5px; margin-left: 15px; ">Enter Your Details Below</legend>
+                    <br>
+                    <fieldset style="background-color:cornflowerblue; margin-left: 15px; width: 300px;">
+                        <legend style=" background-color:greenyellow; margin-left: 15px;">Personal Details</legend>
+                         <br>
+                        <label for="Name" style="margin-left: 10px; color: darkslateblue;" placeholder="Enter Name">Name:</label>
+                        <input type="text" name="Name" id="Name" style="background-color: wheat;">
+                        <br>
+                        <br>
+                        <label for="Phone" style="margin-left: 10px;">Phone:</label>
+                        <input type="tel" name="Phone" id="Phone" min="0000000000" max="999999999" style="background-color: wheat;">
+                        <br>
+                        <br>
+                        <label for="email;" style="margin-left: 10px;">E-mail:</label>
+                        <input type="email" name="email" id="email" style="background-color: wheat;">
+                        <br>
+                        <br>
+                        <label for="email;" style="margin-left: 10px;">Gender:</label>
+                        <input type="checkbox" name="gender" id="gender" value="Male">
+                        <label for="gender">Male</label>
+                        <input type="checkbox" name="gender" id="gender" value="Female">
+                     <label for="gender">Female</label>
+                     <input type="checkbox" name="gender" id="gender" value="Others">
+                        <label for="gender">Others</label>
+                        <br>
+                        <br>
+                    </fieldset>
+                        <br>
+                    <fieldset style="background-color: cornflowerblue; margin-left: 15px; width: 550px;">
+                        <legend style="background-color: chartreuse; margin-left: 15px;">Bus Details</legend>
+                        <br>
+                        <label  for="BUSES1" style="margin-left: 15px;"> Choose Bus type:</label>
+                        <select name="BUSES" id="BUSES1" style="color: darkblue; background-color: white;">
+                            <option value="Non AC Sleeper">Non AC Sleeper (2+1 Sleeping Births)</option>
+                            <option value="Non AC Seater">Non AC Seater(2+2 Pushback Seats)</option>
+                        </select>  
+                        <br/>
+                        <br>
+                        <label  for="Birth" style="margin-left: 15px;"> Select Birth Preference:</label>
+                            <select name="Birth" id="Birth" style="color: blue; background-color: white;">
+                              <option value="Lower Birth">Lower Birth(Sleeper) or window side(Seater)  </option>
+                              <option value="Upper Birth">Upper Birth(Sleeper) or Gallery side(Seater)</option>
+                            </select> 
+                            <br>
+                            <br>
+                    </fieldset> 
+                    <br/>
+                    <fieldset style="background-color: cornflowerblue; margin-left: 15px;width: 300px;">
+                        <legend style="background-color: chartreuse; margin-left: 15px;">Route & Stops Deatils</legend>
+                        <br>
+                        <label for="BUSES1"style="margin-left: 15px;"> From:-</label>
+                        <select name="BUSES" id="BUSES1" style="color: black; background-color: wheat;">
+                            <option value="Agra"> Kuberpur Agra</option>
+                            <option value="Mathura "> Raya Cut Mathura</option>
+                            <option value="BAJNA">Bajna Cut</option>
+                            <option value="JEWAR">Jewar</option>
+                            <option value="Pari Chowk">Pari chowk,Noida</option>
+                            <option value="Sector-37">Sector-37,Noida</option>
+                        </select>  
+                         <br>
+                         <br>
+                         <label for="BUSES1" style="margin-left: 15px;" >To:-</label>
+                        <select  name="BUSES" id="BUSES1" style="color:black;background-color: wheat;">
+                            <option value="Sector-37">Sector-37,Noida</option>
+                            <option value="Pari Chowk">Pari chowk,Noida</option>
+                            <option value="JEWAR">Jewar</option>
+                            <option value="BAJNA">Bajna Cut</option>
+                            <option value="Mathura"> Raya Cut Mathura</option>
+                            <option value="Agra"> Kuberpur Agra</option>
+                        </select> 
+                        <br>
+                        <br>
+                    </fieldset>
+                        <br>
+                    <fieldset style="background-color: cornflowerblue; margin-left: 15px; width: 450px;">
+                         <legend style="background-color: chartreuse; margin-left: 15px;">Date & Time of Traveling</legend>
+                         <br>
+                         <label for="Date" style="margin-left: 15px;"> Choose Your Journey Date:</label>
+                         <input style="color: blue; background-color: white;" type="date" name="Date" id="Date" >
+                         <br>
+                         <br>
+                         <label  for="Time" style="margin-left: 15px; "> Choose Your Travel Timing:</label>
+                         <input style="color:blue; background-color: white;" type="time" name="time" id="Time">
+                         <h5 style="margin-left: 15px;"><b>Note- Timings may Vary According to Bus Availability</b></h5>
+                         <br>
+                         
+                    </fieldset>
+                        <br>
+                    <fieldset style="background-color: cornflowerblue; margin-left: 15px; width: 450px;">
+                        <legend style="background-color: chartreuse; margin-left: 15px;">Payment & Ticket Details</legend>
+                        <br>
+                        <label for="Payment Mode" style="margin-left: 15px;">Choose Payment Mode:</label>
+                        <input type="radio" id="UPI" name="Payment Mode" value="UPI">        
+                        <label  for="UPI">UPI</label>
+                        <input type="radio" id="CARD" name="Payment Mode" value="CARD">
+                        <label for="CARD">CARD</label>
+                        <input type="radio" id="Net Banking" name="Payment Mode" value="Net Banking">
+                        <label for="Net Banking">Net Banking</label>
+                        <br>
+                        <br>
+                        <label for="numberoftickets" style="margin-left: 15px;">No of Tickets:</label>
+                        <input type="number"  name="numberoftickets" id="numberoftickets" min="1" placeholder="Enter no of Tickets" style="background-color: wheat;">
+                        <br>
+                        <br>
+                    </fieldset>
+                        
+                        <br>
+                        <button type="submit" value="Continue"  style=" padding-left: 5px; color: black; background-color: azure; margin-left: 170px;" >Next</button>
+            </fieldset>
+            <br>
+        </form>
+    </body>
+</html>
